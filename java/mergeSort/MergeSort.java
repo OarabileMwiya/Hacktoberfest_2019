@@ -30,7 +30,7 @@ public class Main {
       //and then merge them on each step  
         merge(input, start, mid, end);
     }
-    
+    //Time complexity of merge sort Average is NlogN
     public static void merge(int[] input, int start, int mid, int end) {
 
         if (input[mid - 1] <= input[mid]) {
