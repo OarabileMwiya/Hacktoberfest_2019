@@ -2,6 +2,11 @@ import java.util.Arrays;
 
 /*
     A Generics JAVA class providing a few algorithms for sorting.
+    
+    Code that uses generics has many benefits over non-generic code:
+    Stronger type checks at compile time.
+    A Java compiler applies strong type checking to generic code and issues errors if the code violates type safety. 
+    Fixing compile-time errors is easier than fixing runtime errors, which can be difficult to find.
 */
 
 public class Sorting<T extends Comparable<? super T>> {
